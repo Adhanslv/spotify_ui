@@ -1,3 +1,123 @@
+body {
+  background-color: black;
+}
+img {
+  width: 120px;
+  height: 120px;
+  /* padding: 8px; */
+  margin-top: 12px;
+  margin-right: 22px;
+}
+
+.info {
+  margin-left: -524px;
+}
+
+.dua {
+  padding-left: 114px;
+}
+
+.tiga {
+  padding-left: 99px;
+}
+
+.empat {
+  padding-left: 107px;
+}
+
+/* Cover Info */
+.coverInfo {
+  margin-left: -540px;
+}
+
+.coverInfo2 {
+  padding-left: 98px;
+}
+.coverInfo3 {
+  padding-left: 86px;
+}
+.coverInfo4 {
+  padding-left: 124px;
+}
+
+.heavyInfo {
+  margin-left: -536px;
+}
+
+.heavy2 {
+  padding-left: 58px;
+}
+
+.heavy3 {
+  padding-left: 88px;
+}
+
+.heavy4 {
+  padding-left: 78px;
+}
+
+.sampul {
+  background-color: #242323;
+  margin-top: 65px;
+  padding: 45px;
+  width: 438px;
+  margin-left: -65px;
+  padding-bottom: 12px;
+}
+
+.option img {
+  margin-left: -5px;
+  margin-top: -45px;
+  width: 80px;
+  height: 80px;
+}
+
+.subJudul {
+  margin-left: 95px;
+  padding-bottom: 25px;
+  margin-top: -73px;
+  font-size: 14px;
+}
+
+.coor {
+  color: #595a5c;
+}
+
+.komputer {
+  color: #fff;
+  font-size: 18px;
+  margin-left: 1px;
+}
+
+.tersedia {
+  font-size: 12px;
+  color: #bab3b3;
+  margin-left: 24px;
+  margin-top: -22px;
+}
+
+.pamus {
+  font-size: 24px;
+  margin-left: 241px;
+  margin-top: -38px;
+}
+
+.chossing {
+  border-top: 1px solid #575757;
+  margin-top: 10px;
+  margin-left: -4px;
+  width: 370px;
+}
+
+.icos {
+  font-size: 20px;
+}
+
+.title {
+  margin-top: -28px;
+}
+/* ---------------------------------- */
+/* Defaults */
 .App {
   text-align: center;
 }
@@ -7,10 +127,8 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@media (prefers-reduced-motion: no-preference) .App-logo {
+  animation: App-logo-spin infinite 20s linear;
 }
 
 .App-header {
